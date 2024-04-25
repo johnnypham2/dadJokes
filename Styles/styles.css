@@ -1,13 +1,13 @@
 h1 {
-    color: rgb(255, 3, 87);
-    font-size: 25px;
+  color: rgb(255, 3, 87);
+  font-size: 25px;
 }
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 body {
-    background-color: black;
+  background-color: black;
 }
