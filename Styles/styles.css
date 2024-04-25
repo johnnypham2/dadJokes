@@ -1,6 +1,13 @@
 h1 {
-    color: aqua;
+    color: rgb(255, 3, 87);
+    font-size: 25px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 body {
-    background-image: url(/assets/dad-joke1200-728x409.jpg);
+    background-color: black;
 }

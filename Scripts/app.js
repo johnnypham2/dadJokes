@@ -1,6 +1,8 @@
 let joke = document.getElementById("joke")
 let jokeBtn = document.getElementById("jokeBtn")
 
+
+//joke function
 const getJokes = async() => {
     const promise = await fetch("https://icanhazdadjoke.com/", {
         headers:{
@@ -14,7 +16,7 @@ const getJokes = async() => {
     return data;
 }
 
-
+//added eventlisteners for your button click
 jokeBtn.addEventListener("click", async() =>{
     await getJokes();
 });
